@@ -1,3 +1,7 @@
+## [2.20.4](https://github.com/ghoshRitesh12/aniwatch-api/compare/v2.20.3...v2.20.4) (2025-12-03)
+
+
+
 ## [2.20.3](https://github.com/ghoshRitesh12/aniwatch-api/compare/v2.20.2...v2.20.3) (2025-12-03)
 
 
@@ -26,15 +30,6 @@
 ### Features
 
 * update CORS allowed origins ([52f9180](https://github.com/ghoshRitesh12/aniwatch-api/commit/52f9180daf54adea2538d8c26ba9bc216115a960))
-
-
-
-# [2.19.0](https://github.com/ghoshRitesh12/aniwatch-api/compare/v3.0.0...v2.19.0) (2025-07-27)
-
-
-### Features
-
-* update aniwatch package ([5eb1fc2](https://github.com/ghoshRitesh12/aniwatch-api/commit/5eb1fc26c7632a3e7b53e71fd7df89288943b83d))
 
 
 
