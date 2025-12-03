@@ -1,3 +1,12 @@
+## [2.20.2](https://github.com/ghoshRitesh12/aniwatch-api/compare/v2.20.1...v2.20.2) (2025-12-03)
+
+
+### Bug Fixes
+
+* CORS configuration and TypeScript setup ([05088fa](https://github.com/ghoshRitesh12/aniwatch-api/commit/05088fa23375532839752580e08a2c3639d36d33))
+
+
+
 ## [2.20.1](https://github.com/ghoshRitesh12/aniwatch-api/compare/v2.20.0...v2.20.1) (2025-12-03)
 
 
