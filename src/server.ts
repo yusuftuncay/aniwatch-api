@@ -5,7 +5,7 @@ import { serve } from "@hono/node-server";
 import { serveStatic } from "@hono/node-server/serve-static";
 
 import { log } from "./config/logger.js";
-import { corsConfig } from "./config/cors.js";
+import corsConfig from "./config/cors.js";
 import { ratelimit } from "./config/ratelimit.js";
 import { execGracefulShutdown } from "./utils.js";
 import { DeploymentEnv, env, SERVERLESS_ENVIRONMENTS } from "./config/env.js";
