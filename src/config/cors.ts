@@ -8,11 +8,6 @@ const allowedOrigins =
         origin.trim()
     ) || [];
 
-// Log CORS configuration for debugging (only in development/first load)
-if (process.env.NODE_ENV !== "production") {
-    console.log("CORS Allowed Origins:", allowedOrigins);
-}
-
 const corsConfig = cors({
     allowMethods: ["GET"],
     maxAge: 600,

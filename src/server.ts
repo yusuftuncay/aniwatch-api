@@ -52,14 +52,6 @@ app.get("/v", async (c) =>
             `aniwatch-package: v${"dependencies" in pkgJson && pkgJson?.dependencies?.aniwatch ? pkgJson?.dependencies?.aniwatch : "-1"}`
     )
 );
-app.get("/debug/cors", (c) => {
-    const corsEnv = process.env.ANIWATCH_API_CORS_ALLOWED_ORIGINS;
-    return c.json({
-        corsEnvVariable: corsEnv || "NOT_SET",
-        parsedOrigins: corsEnv?.split(",") || [],
-        deploymentEnv: process.env.ANIWATCH_API_DEPLOYMENT_ENV || "NOT_SET",
-    });
-});
 
 app.use(cacheConfigSetter(BASE_PATH.length));
 
